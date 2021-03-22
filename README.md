@@ -29,7 +29,7 @@ Readme: this file introduces and explains other files in the project. It contain
 
 
 How to run the Python scripts:
-Step 1: Launch a redshift cluster and create an IAM role that has read access to S3.
+Step 1: Launch a redshift cluster and create an IAM role that has read access to S3..
 Step 2: Add redshift database and IAM role info to dwh.cfg file. 
 Step 3: Run create_tables.py to create the fact and dimension tables.
 Step 4: Run etl.py file to load data from S3 to staging tables on Redshift and from staging tables to analytics tables on Redshift.
